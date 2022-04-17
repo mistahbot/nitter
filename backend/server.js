@@ -14,6 +14,9 @@ const messages = [];
 // };
 
 
+const PORT = process.env.PORT || 8080;
+
+
 const main = () => {
     const app = express();
 
@@ -108,8 +111,8 @@ const main = () => {
         }
     });
 
-    app.listen(8080, () => {
-        console.log('server started on 8080');
+    app.listen(PORT, () => {
+        console.log(`server started on ${PORT}`);
     });
 }
 

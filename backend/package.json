@@ -1,13 +1,16 @@
 {
-  "name": "backend",
-  "version": "1.0.0",
-  "main": "index.js",
-  "license": "MIT",
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.17.3"
-  },
-  "devDependencies": {
-    "axios": "^0.26.1"
-  }
+    "name": "backend",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.17.3"
+    },
+    "devDependencies": {
+        "axios": "^0.26.1"
+    }
 }
