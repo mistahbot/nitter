@@ -1,0 +1,26 @@
+.App {
+    text-align: center;
+    height: 100%;
+    padding: 4rem;
+}
+
+
+.message {
+    background-color: rgb(29, 42, 79);
+    box-shadow: 0px 0px 10px 5px rgb(31, 50, 95);
+    color: white;
+    padding: 2rem;
+    margin: 2rem;
+    text-align: left;
+}
+
+
+.message-text {
+    margin: 1rem 0;
+}
+
+
+.new-message-button {
+    cursor: pointer;
+    padding: 1rem;
+}

@@ -1,0 +1,10 @@
+html, body {
+    background-color: rgb(17, 22, 35);
+    color: white;
+    height: 100%;
+}
+
+
+#root {
+    height: 100%;
+}
