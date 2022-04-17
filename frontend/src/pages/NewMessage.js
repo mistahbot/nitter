@@ -4,6 +4,10 @@ import {
 
 import './NewMessage.css';
 
+import {
+    SERVER_ADDRESS,
+} from '../constants';
+
 
 
 function NewMessage() {
@@ -39,7 +43,7 @@ function NewMessage() {
         };
 
         await fetch(
-            'http://localhost:8080/message',
+            SERVER_ADDRESS + '/message',
             {
                 method: 'POST',
                 headers: {

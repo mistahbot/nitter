@@ -6,6 +6,10 @@ import {
 
 import './Messages.css';
 
+import {
+    SERVER_ADDRESS,
+} from '../constants';
+
 
 
 function Messages() {
@@ -24,7 +28,7 @@ function Messages() {
             };
 
             const request = await fetch(
-                'http://localhost:8080/messages_json',
+                SERVER_ADDRESS + '/messages_json',
                 {
                     method: 'POST',
                     headers: {
